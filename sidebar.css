@@ -1,0 +1,43 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width:72px;
+    background-color:white;
+    z-index: 200;/* its cover the header*/
+    padding-top: 5px;
+}
+
+.sidebar-link{
+    height: 74px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(235, 235,235);
+}
+
+.sidebar-link img{
+    height: 26px;
+   
+}
+
+.sidebar-link div{
+    font-family: roboto,arial;
+    font-size: 10px;
+}
+
+/*.left-sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;                      (This is my thought)
+    background-color: green;
+    width: 120px;
+}*/
